@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore{
+    height: 95%;
+    margin: 0 auto;
+    background-color: lightyellow ;
+    
+}
+.row{
+    margin: 40px;
+    padding: 15px;
+    text-align: center;   
+}
+
+.prodotti{
+    position: relative;
+    display:inline-block;
+}
+.prodotti:hover .foto-1{
+  display: inline;
+}
+
+.foto{
+    width:250px;
+    
+}
+.foto-1{
+    width: 250px;
+    position: absolute;
+    display: none;
+    
+
+}
+.prezzo{
+    position: absolute;
+    bottom: 75px;
+    left: 0px;
+    background-color: red;
+    color: white;
+}
+.offerta{
+    position: absolute;
+    bottom: 75px;
+    left: 40px;
+    background-color: rgb(26, 165, 26);
+    color: white;
+}
+.SOST{
+    position: absolute;
+    bottom: 75px;
+    left: 0px;
+}
+h3{
+    font-size: 15px;
+}
+.cuore{
+    position:absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+#soldi{
+    color: red;
+}
+    
