@@ -9,31 +9,41 @@
     margin: 0 auto;
     background-color: lightyellow ;
     
+    
 }
 .row{
     margin: 40px;
     padding: 15px;
-    text-align: center;   
+     
 }
+.scritte{
+    
+   
+}
+
 
 .prodotti{
     position: relative;
     display:inline-block;
+    
+    
 }
-.prodotti:hover .foto-1{
+.prodotti:hover .foto-2{
   display: inline;
+  
+  
+}
+.prodotti:hover .foto{
+    display: none;
 }
 
 .foto{
-    width:250px;
-    
+    width:250px;  
 }
-.foto-1{
+.foto-2{
     width: 250px;
-    position: absolute;
     display: none;
     
-
 }
 .prezzo{
     position: absolute;
