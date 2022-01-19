@@ -5,22 +5,21 @@
 }
 
 .contenitore{
-    height: 95%;
-    margin: 0 auto;
-    background-color: lightyellow ;
+    height: 90%;
+    margin-left: 500px;
+    
+    background-image: url(https://batista70.s3.eu-central-1.amazonaws.com/2016/06/zalando-1.png);
+    background-repeat: no-repeat;
+    
     
     
 }
 .row{
     margin: 40px;
     padding: 15px;
+    
      
 }
-.scritte{
-    
-   
-}
-
 
 .prodotti{
     position: relative;
@@ -28,6 +27,8 @@
     
     
 }
+
+
 .prodotti:hover .foto-2{
   display: inline;
   
@@ -35,6 +36,10 @@
 }
 .prodotti:hover .foto{
     display: none;
+}
+
+.cuore::after{
+    background-color: red;
 }
 
 .foto{
